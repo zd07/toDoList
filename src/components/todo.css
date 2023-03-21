@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/* .center{
+    height: 100%;
+    width: 51%;
+} */
+.input{
+    width: 90%;
+    height: 35px;
+    background-color: rgb(39, 43, 44);
+    border: none;
+    border-style: none;
+    margin: 7px 1px 1px 7px;
+    color: white;
+    font-size: 15px;
+    /* border-color: transparent; */
+}
+.input:focus{
+    outline: none;
+}
+/* input:hover{
+    border-color: rgb(74, 188, 13);
+} */
+.heading{
+    width: 40%;
+    height: 48px;
+    margin: auto;
+    background-color: rgb(39, 43, 44);
+    display: flex;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+.heading:hover{
+    border: 1px solid rgb(38, 151, 68);
+}
+.btnAdd{
+    width: 10%;
+    height: 37px;
+    margin-top:7px;
+    margin-right: 0px;
+    background-color: rgb(39, 43, 44);
+    border: none;
+    font-size: large;
+    color: rgb(38, 151, 68);
+    cursor: pointer;
+}
+.btnAdd:hover{
+    
+    color: white;
+}
+/* .toDo-div{
+    list-style: none;
+    padding-inline-start: 0px;
+    width: 100%;
+    height: 48px;
+    margin: 20px;
+    background-color: rgb(39, 43, 44);
+    display: flex;
+    border-radius: 5px;
+} */
+.hd{
+    margin-top: 5px;
+}
+h1{
+   /* margin-left: 38%;*/
+   color: rgb(38, 151, 68); 
+   width: 100%;
+   text-align: center;
+
+}
+@media (max-width:467px) {
+    .input{
+      width: 80%;
+      height: 35px;
+      background-color: rgb(39, 43, 44);
+      border: none;
+      border-style: none;
+      margin: 7px 1px 1px 7px;
+      color: white;
+      font-size: 15px; 
+      /* /* border-color: transparent; */
+    }
+    .heading{
+      width: 80%;
+      height: 48px;
+      margin: auto;
+      /* background-color: rgb(39, 43, 44);
+      display: flex;
+      border-radius: 5px;
+      margin-top: 2px; */
+  }
+  .heading:hover{
+      border: 1px solid rgb(38, 151, 68);
+  }
+  .btnAdd{
+      width: 10%;
+      height: 37px;
+      margin-top:7px;
+    margin: auto;
+      background-color: rgb(39, 43, 44);
+      border: none;
+      font-size: large;
+      color: rgb(38, 151, 68);
+      cursor: pointer;
+  }
+  .btnAdd:hover{
+      
+      color: white;
+  }
+  /* .toDo-div{
+      list-style: none;
+      padding-inline-start: 0px;
+      width: 100%;
+      height: 48px;
+      margin: 20px;
+      background-color: rgb(39, 43, 44);
+      display: flex;
+      border-radius: 5px;
+  } */
+  .hd{
+      margin-top: 5px;
+  }
+  h1{
+    width: 100%;
+    height: 48px;
+     /* margin-left:30% ; */
+     color: rgb(38, 151, 68); 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+  }
+  }
+  
